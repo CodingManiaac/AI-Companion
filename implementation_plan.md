@@ -49,7 +49,7 @@ Build a fully functional AI-powered study companion web app using **Streamlit** 
 
 ```
 c:\AI Companion\
-├── app.py                    # Main entry point with navigation
+├── streamlit_app.py          # Main entry point with navigation
 ├── requirements.txt          # Python dependencies
 ├── .env.example              # Template for API keys
 ├── .streamlit/
@@ -189,7 +189,7 @@ FAISS integration (no LangChain):
 
 ### 4. Page Implementations
 
-#### [NEW] [app.py](file:///c:/AI Companion/app.py)
+#### [NEW] [streamlit_app.py](file:///c:/AI Companion/streamlit_app.py)
 Main entry point:
 - Set page config (wide layout, custom icon)
 - Initialize database
@@ -309,7 +309,7 @@ pip install -r requirements.txt
 python -c "from database.db import init_db; init_db(); print('DB OK')"
 
 # Run the app
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ### Manual Verification

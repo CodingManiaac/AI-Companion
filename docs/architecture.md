@@ -7,7 +7,7 @@ graph TD
     User([User Browser]) <--> |HTTP / WebSockets| StreamlitApp[Streamlit App Layer]
     
     subgraph StreamlitApp [Streamlit App & Pages]
-        AppEntry[app.py]
+        AppEntry[streamlit_app.py]
         Pages[Page Modules]
         Theme[style.css]
     end

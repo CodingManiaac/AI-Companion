@@ -53,7 +53,7 @@ The app allows students to upload PDF materials, auto-generate key takeaways, as
 
 5. Run the Streamlit application:
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 6. Open the app in your browser at `http://localhost:8501`.

@@ -7,7 +7,7 @@ This document illustrates the primary workflow pathways available within the AI 
 sequenceDiagram
     actor Student
     participant Auth as auth.py
-    participant App as app.py
+    participant App as streamlit_app.py
     participant DB as db.py
     participant FAISS as vector_store.py
 
